@@ -1,0 +1,13 @@
+/*//META{"name":"Background Opacity","description":"Hides your email and username in settings","author":"Hoofer#0001 | https://twitter.com/leHoofer","version":"1.0","website":"https://iman.engineer","source":""}*//**/
+
+:root {
+    --file-transparency: 0.5;
+    --menu-transparency: 0.5;
+}
+
+.da-backdropWithLayer {
+    opacity: var(--menu-transparency) !important;
+}
+.da-backdrop {
+    opacity: var(--file-transparency) !important;
+}
