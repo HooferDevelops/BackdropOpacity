@@ -14,7 +14,10 @@
     opacity: 0 !important;
 }
 .backdrop-1wrmKB.da-backdrop  {
-    opacity: .5 !important;
+    opacity: var(--menu-transparency) !important;
+}
+.layerContainer-yqaFcK > .da-backdropWithLayer {
+    opacity: var(--menu-transparency) !important;
 }
 .backdrop-1wrmKB {
     opacity: 0 !important;
